@@ -60,6 +60,7 @@ function DeckDetails() {
           <DeleteDeck deckId={deckId} />
         </div>
       </section>
+      <br />
       <section className="cards">
         <h2>Cards</h2>
         <div className="cards-list">

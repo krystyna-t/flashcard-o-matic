@@ -4,15 +4,11 @@ import { Link } from "react-router-dom";
 function Card({ card, handleDeleteCard }) {
   return (
     <div className="card">
-      <table>
-        <tbody>
-          <tr>
-            <td>{card.front}</td>
-            <td>{card.back}</td>
-          </tr>
-        </tbody>
-      </table>
-      <div>
+      <div className="card-content">
+        <p>{card.front}</p>
+        <p>{card.back}</p>
+      </div>
+      <div class="card-buttons">
         <Link to={`/decks/${card.deckId}/cards/${card.id}/edit`}>
           <button className="btn btn-secondary oi oi-pencil">Edit</button>
         </Link>

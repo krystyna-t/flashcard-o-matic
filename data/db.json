@@ -11,14 +11,14 @@
       "id": 2
     },
     {
-      "name": "gergt",
-      "description": "grgt",
-      "id": 4
+      "name": "Test deck 2 cards",
+      "description": "Test deck with 2 cards",
+      "id": 3
     },
     {
-      "name": "yhr4yr6t",
-      "description": "yhr5yh6t5",
-      "id": 6
+      "name": "Test deck no cards",
+      "description": "Test deck with no cards",
+      "id": 4
     }
   ],
   "cards": [
@@ -53,40 +53,22 @@
       "id": 5
     },
     {
-      "id": 8,
-      "front": "yyyyyy",
-      "back": "yyyyyyyy2",
-      "deckId": 1
+      "front": "Test card front",
+      "back": "Test card back",
+      "deckId": 1,
+      "id": 14
     },
     {
-      "id": 9,
-      "front": "1111",
-      "back": "2222",
-      "deckId": 1
+      "front": "Card one front",
+      "back": "Card one back",
+      "deckId": 3,
+      "id": 15
     },
     {
-      "front": "ertg",
-      "back": "etr",
-      "deckId": 2,
-      "id": 10
-    },
-    {
-      "front": "te54t",
-      "back": "t5e4t",
-      "deckId": 4,
-      "id": 11
-    },
-    {
-      "front": "y56y",
-      "back": "56y466",
-      "deckId": 4,
-      "id": 12
-    },
-    {
-      "front": "y65y",
-      "back": "ryhtr",
-      "deckId": 4,
-      "id": 13
+      "front": "Card two front",
+      "back": "Card two back",
+      "deckId": 3,
+      "id": 16
     }
   ]
 }

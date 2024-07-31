@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin: 4px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-danger {
+  float: right;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.decks-list li {
+  padding: 10px;
+  margin: 5px 0px;
+  border: lightgray solid 0.5px;
+  border-radius: .25rem;
+}
+
+.deck h2 {
+  display: inline-block; 
+  margin-right: 15px;
+}
+
+.card-count {
+  float: right;
+  font-size: 0.8rem; 
+  color: gray;
+}
+
+.card-study {
+  border: lightgray solid 0.5px;
+  border-radius: .25rem;
+  padding: 10px;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: flex-end;
+}

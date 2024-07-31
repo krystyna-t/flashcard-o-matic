@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./Home.css";
 import { listDecks } from "../utils/api";
 import DeckList from "../decks/DeckList";
 
@@ -17,11 +16,13 @@ function Home() {
 
   return (
     <>
-      <Link to="/decks/new">
-        <button type="button" className="btn btn-secondary oi oi-plus">
-          Create Deck
-        </button>
-      </Link>
+      <div>
+        <Link to="/decks/new">
+          <button type="button" className="btn btn-secondary oi oi-plus">
+            Create Deck
+          </button>
+        </Link>
+      </div>
       <DeckList decks={decks} />
     </>
   );

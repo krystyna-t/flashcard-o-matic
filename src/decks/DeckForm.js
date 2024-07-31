@@ -69,15 +69,15 @@ function DeckForm({ initialFormData, deckId }) {
           required
         />
       </div>
-      <button type="submit" className="btn btn-primary">
-        Submit
-      </button>
       <button
         type="button"
         className="btn btn-secondary"
         onClick={handleCancel}
       >
         Cancel
+      </button>
+      <button type="submit" className="btn btn-primary">
+        Submit
       </button>
     </form>
   );

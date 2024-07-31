@@ -63,7 +63,7 @@ function Study() {
       </nav>
       <h1>Study: {deck.name}</h1>
       {cardsLength > 2 ? (
-        <div>
+        <div className="card-study">
           <div>
             <h5>
               Card {currentCardIndex + 1} of {cardsLength}

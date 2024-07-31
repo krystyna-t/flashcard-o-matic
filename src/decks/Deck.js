@@ -4,11 +4,9 @@ import DeleteDeck from "./DeleteDeck";
 
 function Deck({ deck }) {
   return (
-    <section className="deck">
-      {deck && (
-        <div>
+        <div className="deck">
           <h2>{deck.name}</h2>
-          <p>{deck.cards.length} cards</p>
+          <p className="card-count">{deck.cards.length} cards</p>
           <p>{deck.description}</p>
           <div>
             <Link to={`/decks/${deck.id}`}>
@@ -20,8 +18,6 @@ function Deck({ deck }) {
             <DeleteDeck deckId={deck.id} />
           </div>
         </div>
-      )}
-    </section>
   );
 }
 
